@@ -1,0 +1,43 @@
+#hero img {
+  width: 1520px;
+  height: 600px;
+}
+
+#about {
+  margin: 50px 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#about h1 {
+  margin: 50px 0 20px 0;
+  text-align: center;
+}
+
+#about h1 span {
+  border-bottom: 3px solid #e2b81c;
+}
+
+#about section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#about section img {
+  border: 10px solid #e4cfa9;
+  border-radius: 30px;
+}
+
+#about section p {
+  margin: 50px 0 0 50px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+#about .paragraph-bottom {
+  margin: 50px 100px;
+}
+
+#about p {
+  text-align: justify;
+}
+/*# sourceMappingURL=about.css.map */

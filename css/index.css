@@ -1,0 +1,156 @@
+#home {
+  background: url("/code/Img/bg-hero-desktop.svg") no-repeat;
+  background-size: cover;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.hero-heading {
+  padding: 150px 450px 0 0;
+  margin: 200px 0 0 150px;
+}
+
+.hero-heading h3 {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Bahnschrift;
+  font-size: 35px;
+}
+
+.hero-heading h4 {
+  font-family: Segoe UI;
+  color: #fff;
+}
+
+.hero-heading h4 span {
+  font-family: stylus bt;
+}
+
+.hero-img {
+  margin: 100px;
+  width: auto;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 25px;
+}
+
+.about img {
+  padding: 3%;
+  width: auto;
+  height: 500px;
+}
+
+.about section {
+  padding: 3%;
+}
+
+.about section p {
+  font-family: Segoe UI;
+  color: #fff;
+  font-size: 20px;
+}
+
+.about section button {
+  margin: 5% 0 0 55%;
+  border-radius: 0 15px 15px 0;
+}
+
+.about section button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.about-heading > h3 {
+  font-family: segoe ui;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 30px;
+}
+
+.about-heading > h3 span {
+  border-bottom: 3px solid #e2b81c;
+}
+
+.project-img > img {
+  width: 200px;
+  height: 200px;
+}
+
+#portfolio h3 {
+  font-family: segoe ui;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 30px;
+  padding-bottom: 10px;
+  margin: 50px 0;
+  text-align: center;
+}
+
+#portfolio h3 span {
+  border-bottom: 3px solid #e2b81c;
+}
+
+.portfolio {
+  padding: 2%;
+  background: #e4cfa9;
+}
+
+.portfolio h4 {
+  color: #002939;
+  text-align: center;
+  margin: 20px 100px 0 0;
+}
+
+.portfolio img {
+  border: 10px solid #002939;
+  border-radius: 5px 30px;
+}
+
+.portfolio .project-row1 {
+  margin: 50px 50px 0px 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolio .project-row2 {
+  margin: 100px 50px 0 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolio button {
+  background: #002939;
+  border-radius: 15px 0 0 15px;
+  margin: 50px 0 0 10%;
+  width: 130px;
+  font-family: "Segoe UI";
+}
+
+.portfolio button a {
+  text-decoration: none;
+  color: #e4cfa9;
+}
+
+.portfolio button a:hover {
+  color: #e4cfa9;
+}
+/*# sourceMappingURL=index.css.map */

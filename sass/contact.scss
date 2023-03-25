@@ -1,0 +1,37 @@
+@import "variable";
+
+.hero {
+  img {
+    width: 1519px;
+    height: 300px;
+  }
+}
+#contact {
+  h1 {
+    color: $primaryTextColor;
+    text-align: center;
+    margin: 30px;
+    span {
+      border-bottom: 5px solid $yellow;
+    }
+  }
+}
+
+.contact {
+  display: flex;
+  .info {
+    h3 {
+      margin: 40px;
+      color: $primaryTextColor;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+  .map {
+    img {
+        margin: 5% 0 0 95%;
+      width: 500px;
+    }
+  }
+}

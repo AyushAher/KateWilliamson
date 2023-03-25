@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="749" viewBox="0 0 1920 749">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.37" y1="1.291" x2="0.5" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#c9f0ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-1.608" y1="-2.245" x2="1.07" y2="0.707" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#def5fe"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-0.199" y1="-0.068" x2="1.176" y2="1" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="1.199" y1="0" x2="0" y2="0.846" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="-0.89" y1="0.776" x2="1.371" y2="0.178" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="bg-hero-desktop" transform="translate(0 0)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="38" height="38" rx="3" transform="translate(1303.122 576.12) rotate(45)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="17" height="17" rx="1" transform="translate(686.874 363.033) rotate(45)" fill="url(#linear-gradient-2)"/>
+    <path id="Path_1" data-name="Path 1" d="M16.052,1.1,28.316,25.633a2,2,0,0,1-1.789,2.894H2A2,2,0,0,1,.211,25.633L12.475,1.1a2,2,0,0,1,3.577,0Z" transform="translate(1804.339 289.241) rotate(30)" fill="none" stroke="#707070" stroke-width="10" fill-rule="evenodd" opacity="0.543"/>
+    <path id="Path_2" data-name="Path 2" d="M27.882,2.764l18.41,36.82A5,5,0,0,1,41.82,46.82H5A5,5,0,0,1,.528,39.584l18.41-36.82a5,5,0,0,1,8.944,0Z" transform="translate(1111.481 163.524) rotate(30)" fill="none" stroke="#707070" stroke-width="10" fill-rule="evenodd" opacity="0.543"/>
+    <path id="Path_3" data-name="Path 3" d="M0,428q58.428-138.934,170.692-99.992c112.265,38.943,152.14,91.606,212.59,0,15.672-23.751,9.865-74.51-29.279-76.526s-9.251-46.316,58.144-55.007-18.1-70.062-69.395-87.9c-53.275-18.522,15.159-67.282,20.444-85.9q12.87-45.348-363.2,0Z" fill-rule="evenodd" fill="url(#linear-gradient-3)"/>
+    <path id="Path_4" data-name="Path 4" d="M1440,749q-131.247-1.561-193.555-61.4c-62.308-59.835-61.792-189.235-194.636-182.16s-274.8-21.867-224.4-103.377S995.536,330.659,1023.673,197.8s-202.236,27.58-240.286-60.762c-14.858-34.5,20.409-39.15-34.273-77.963C730.961,46.19,722.183,27.519,725.8,20.262c1.744-3.5,7.924,1.6,14.37,0,20.466-5.09,63.76,0,107.641,0H1440Z" transform="translate(480)" fill-rule="evenodd" fill="url(#linear-gradient-4)"/>
+    <path id="Path_5" data-name="Path 5" d="M520.4,612.23c8.7-1.82,11.409,7.778,27.275,7.778s29.975-9.065,49.61-1.072,35.523,32.21,15.406,27.541c-11.882-2.758-26.578-11.167-46.816,4.842s-32.349-14.56-47.511-9.869-6.735-27.386,2.036-29.22Z" transform="translate(184.337 11)" fill-rule="evenodd" fill="url(#linear-gradient-5)"/>
+  </g>
+</svg>

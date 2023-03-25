@@ -1,0 +1,38 @@
+@import "variable";
+
+
+#hero {
+  img {
+    width: 1520px;
+    height: 600px;
+  }
+}
+
+#about {
+  margin: 50px 0;
+  color: $primaryTextColor;
+  h1 {
+    margin: 50px 0 20px 0;
+    text-align: center;
+    span {
+      border-bottom: 3px solid $yellow;
+    }
+  }
+  section {
+    img{
+      border: 10px solid $primaryBackgroundColor;
+      border-radius: 30px;
+    }
+    display: flex;
+    p {
+      margin: 50px 0 0 50px;
+      color: $primaryTextColor;
+    }
+  }
+  .paragraph-bottom {
+    margin: 50px 100px;
+  }
+  p{
+    text-align: justify;
+  }
+}

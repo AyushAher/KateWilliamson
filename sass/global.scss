@@ -1,0 +1,84 @@
+@import "variable";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI";
+}
+
+body {
+  background: linear-gradient(
+      to bottom right,
+      $linearGradientPrimary,
+      $linearGradientSecondary
+    )
+    no-repeat;
+}
+
+.navbar-brand {
+  color: $primaryTextColor;
+  font-weight: bold;
+  text-decoration: none;
+  &:hover {
+    color: $secondaryTextColor;
+  }
+}
+.nav-link {
+  color: $primaryTextColor;
+  text-decoration: none;
+  &:hover {
+    color: $secondaryTextColor;
+  }
+}
+// footer
+#footer {
+  margin-top: 50px;
+  padding: 10px 0 0 0;
+  background: $secondaryBackgroundColor;
+  .container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .form {
+    width: 50%;
+    h3 {
+      padding: 20px 0;
+      text-align: center;
+      color: $primaryTextColor;
+    }
+
+    button {
+      background: $white;
+      width: 85px;
+
+      a {
+        text-decoration: none;
+        color: $black;
+        &:hover {
+          color: $primaryBackgroundColor;
+        }
+      }
+    }
+  }
+  .info {
+    color: $primaryTextColor;
+    margin-left: 250px;
+    h2 {
+      padding-top: 20px;
+      margin-left: 250px;
+      text-align: left;
+    }
+    .information {
+      margin: 100px 0 0 0;
+      h3 {
+        margin: 20px 0;
+      }
+    }
+  }
+  .copy {
+    bottom: 0;
+    text-align: center;
+    height: 30px;
+    background: $white;
+  }
+}
