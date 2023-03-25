@@ -4,12 +4,8 @@
 }
 
 .hero {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .hero-heading {
@@ -38,12 +34,8 @@
 }
 
 .about {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
   margin-bottom: 25px;
 }
 
@@ -73,17 +65,17 @@
   text-decoration: none;
 }
 
-.about-heading > h3 {
+.about-heading>h3 {
   font-family: segoe ui;
   color: rgba(255, 255, 255, 0.6);
   font-size: 30px;
 }
 
-.about-heading > h3 span {
+.about-heading>h3 span {
   border-bottom: 3px solid #e2b81c;
 }
 
-.project-img > img {
+.project-img>img {
   width: 200px;
   height: 200px;
 }
@@ -119,22 +111,14 @@
 
 .portfolio .project-row1 {
   margin: 50px 50px 0px 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .portfolio .project-row2 {
   margin: 100px 50px 0 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .portfolio button {
@@ -153,4 +137,5 @@
 .portfolio button a:hover {
   color: #e4cfa9;
 }
+
 /*# sourceMappingURL=index.css.map */

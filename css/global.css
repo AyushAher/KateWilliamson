@@ -5,8 +5,7 @@
 }
 
 body {
-  background: -webkit-gradient(linear, left top, right bottom, from(#1b1b1b), to(#1d635580)) no-repeat;
-  background: linear-gradient(to bottom right, #1b1b1b, #1d635580) no-repeat;
+  background: linear-gradient(to bottom right, #1b1b1b, rgba(29, 99, 85, 0.5019607843)) no-repeat;
 }
 
 .navbar-brand {
@@ -35,8 +34,6 @@ body {
 }
 
 #footer .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-bottom: 20px;
 }
@@ -90,4 +87,5 @@ body {
   height: 30px;
   background: #fff;
 }
+
 /*# sourceMappingURL=global.css.map */

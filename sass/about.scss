@@ -1,9 +1,8 @@
 @import "variable";
 
-
 #hero {
   img {
-    width: 1520px;
+    width: 100%;
     height: 600px;
   }
 }
@@ -19,7 +18,7 @@
     }
   }
   section {
-    img{
+    img {
       border: 10px solid $primaryBackgroundColor;
       border-radius: 30px;
     }
@@ -32,7 +31,7 @@
   .paragraph-bottom {
     margin: 50px 100px;
   }
-  p{
+  p {
     text-align: justify;
   }
 }
