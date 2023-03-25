@@ -13,7 +13,6 @@ body {
   font-weight: bold;
   text-decoration: none;
 }
-
 .navbar-brand:hover {
   color: #6a6666;
 }
@@ -22,7 +21,6 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-
 .nav-link:hover {
   color: #6a6666;
 }
@@ -32,60 +30,53 @@ body {
   padding: 10px 0 0 0;
   background: #002939;
 }
-
 #footer .container {
   display: flex;
   margin-bottom: 20px;
 }
-
 #footer .form {
   width: 50%;
 }
-
 #footer .form h3 {
   padding: 20px 0;
   text-align: center;
   color: rgba(255, 255, 255, 0.6);
 }
-
 #footer .form button {
   background: #fff;
   width: 85px;
+  border-radius: 25px;
 }
-
 #footer .form button a {
   text-decoration: none;
   color: #000;
 }
-
 #footer .form button a:hover {
   color: #e4cfa9;
 }
-
 #footer .info {
   color: rgba(255, 255, 255, 0.6);
   margin-left: 250px;
 }
-
 #footer .info h2 {
   padding-top: 20px;
   margin-left: 250px;
   text-align: left;
 }
-
 #footer .info .information {
   margin: 100px 0 0 0;
 }
-
 #footer .info .information h3 {
   margin: 20px 0;
 }
-
+#footer .info .information a {
+  display: inline-block;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.6);
+}
 #footer .copy {
   bottom: 0;
   text-align: center;
   height: 30px;
   background: #fff;
-}
-
-/*# sourceMappingURL=global.css.map */
+}/*# sourceMappingURL=global.css.map */
